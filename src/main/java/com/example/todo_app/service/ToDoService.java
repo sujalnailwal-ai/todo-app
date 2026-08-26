@@ -89,7 +89,7 @@ public class ToDoService {
 
         if(updateDto.getTitle()!=null){
             if(updateDto.getTitle().isBlank()){
-                throw new IllegalArgumentException("Title cannot be Blank");
+                throw new IllegalArgumentException();
             }
             task.setTitle(updateDto.getTitle());
         }
