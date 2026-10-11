@@ -2,3 +2,5 @@
 It is a basic CRUD ToDo app that tracks your pending and completed tasks
 <br>
 26 August 2026 -> Added a Error response Dto to show Error messages if error occurs
+<br>
+30 August 2026 -> Added Spring Boot Starter Security Dependency
